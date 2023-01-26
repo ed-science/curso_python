@@ -11,5 +11,6 @@ print('resultado conta_1:' , conta_1)
 # 3. * / // %
 # 4. + -
 conta_2 = (1 + int(0.5 + 0.5)) ** 5 + 5
-print('resultado conta_2:' , conta_2)
+# print('resultado conta_2:' , conta_2)
+print(f'resultado conta_2: {conta_2}')
 
