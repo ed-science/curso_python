@@ -31,3 +31,6 @@ print(c('c'))
 print(c('d'))
 final = c()
 print(final)
+
+
+print(ord('H'))
