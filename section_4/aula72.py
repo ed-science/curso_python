@@ -4,6 +4,8 @@
 # não nomeados recebidos
 # Retorne o total para uma variável e mostre o valor
 # da variável.
+
+
 def multiplicar(*args):
     total = 1
     for numero in args:

@@ -6,11 +6,10 @@ Argumento não nomeado recebe apenas o argumento (valor)
 
 
 def soma(x, y, z):
-    # Definição
-    print(f'{x=} y={y} {z=}', '|', 'x + y + z = ', x + y + z)
-
-
+    print(f'{x=} {y=} {z=}', 'x + y + z', '--' , x + y + z)
+    
+    
 soma(1, 2, 3)
-soma(1, y=2, z=5)
+soma(x= 3, z=4, y=3)
 
 print(1, 2, 3, sep='-')
